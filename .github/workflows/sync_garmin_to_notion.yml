@@ -36,12 +36,12 @@ jobs:
 
       - name: Run script
         env:
-          GARMIN_EMAIL: ${{ secrets.GARMIN_EMAIL }}
-          GARMIN_PASSWORD: ${{ secrets.GARMIN_PASSWORD }}
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
-          NOTION_PR_DB_ID: ${{ secrets.NOTION_PR_DB_ID }}
-          NOTION_STEPS_DB_ID: ${{ secrets.NOTION_STEPS_DB_ID }}
+          GARMIN_EMAIL: ${{ secrets.laxlackey@gmail.com }}
+          GARMIN_PASSWORD: ${{ secrets.)QQgNQ&yW89di3s }}
+          NOTION_TOKEN: ${{ secrets.9eb4fd53-0e53-4183-999f-d401a0812670 }}
+          NOTION_DB_ID: ${{ secrets.197ff25bed79817b9fcdd8667997b0b9?v=197ff25bed79817a9645000cda3ce1c2&pvs=4 }}
+          NOTION_PR_DB_ID: ${{ secrets.197ff25bed7981599691c06d0e5acdea?v=197ff25bed798165afcc000ce51a260c&pvs=4 }}
+          NOTION_STEPS_DB_ID: ${{ secrets.197ff25bed79816cb089d96d113b893c?v=197ff25bed7981c19c28000c9cd062a3&pvs=4 }}
           TZ: 'America/Montreal'
         run: |
           python garmin-activities.py
